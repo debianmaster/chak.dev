@@ -3,8 +3,13 @@
     "develop": {
       "plugins": [
         {
-          "name": "@babel/plugin-proposal-object-rest-spread",
-          "options": {}
+          "name": "babel-plugin-styled-components",
+          "stage": "develop",
+          "options": {
+            "plugins": [],
+            "displayName": false,
+            "ssr": false
+          }
         }
       ],
       "presets": [],
@@ -16,8 +21,13 @@
     "develop-html": {
       "plugins": [
         {
-          "name": "@babel/plugin-proposal-object-rest-spread",
-          "options": {}
+          "name": "babel-plugin-styled-components",
+          "stage": "develop-html",
+          "options": {
+            "plugins": [],
+            "displayName": false,
+            "ssr": false
+          }
         }
       ],
       "presets": [],
@@ -29,8 +39,13 @@
     "build-html": {
       "plugins": [
         {
-          "name": "@babel/plugin-proposal-object-rest-spread",
-          "options": {}
+          "name": "babel-plugin-styled-components",
+          "stage": "build-html",
+          "options": {
+            "plugins": [],
+            "displayName": false,
+            "ssr": true
+          }
         }
       ],
       "presets": [],
@@ -42,8 +57,13 @@
     "build-javascript": {
       "plugins": [
         {
-          "name": "@babel/plugin-proposal-object-rest-spread",
-          "options": {}
+          "name": "babel-plugin-styled-components",
+          "stage": "build-javascript",
+          "options": {
+            "plugins": [],
+            "displayName": false,
+            "ssr": true
+          }
         }
       ],
       "presets": [],
@@ -53,8 +73,5 @@
       }
     }
   },
-  "browserslist": [
-    ">0.25%",
-    "not dead"
-  ]
+  "browserslist": [">0.25%", "not dead"]
 }
