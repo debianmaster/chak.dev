@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { StyledAnchor } from './styled/link';
-import NavbarCubingIcon from '../images/navbar-cubing.svg';
+//import NavbarCubingIcon from '../images/navbar-cubing.svg';
 import NavbarHomeIcon from '../images/navbar-home.svg';
 import NavbarLaptopIcon from '../images/navbar-laptop.svg';
 import NavbarViolinIcon from '../images/navbar-violin.svg';
@@ -91,9 +91,6 @@ export default () => (
       <NavbarIcon as={NavbarViolinIcon} />
       Youtube
     </NavbarLink>
-    <NavbarLink as={Link} to="/conferences/" getProps={isPartiallyActive}>
-      <NavbarIcon as={NavbarCubingIcon} />
-      Conferences
-    </NavbarLink>
+
   </Navbar>
 );
