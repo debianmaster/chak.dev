@@ -12,43 +12,36 @@ const CubingPage = () => (
   <Layout tabs={cubingTabs}>
     <MainContainer>
       <Article>
-        <h1>Meetups</h1>
+        <h1>Speedcubing</h1>
         <p>
-            I have done several meetups in different cities
+          I set the world record for solving the Rubik’s cube in 2006 in 11.13
+          seconds. I also set seven world records for solving the Rubik’s cube
+          blindfolded.
+        </p>
+        <p>
+          <StyledAnchor
+            as={OutboundLink}
+            href="https://www.worldcubeassociation.org/persons/2004LOLE01?tab=records"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Official records
+          </StyledAnchor>
         </p>
         <h2>Videos</h2>
         <UnorderedList>
           <ListItem>
-            devops-kansas/k8s-the-hardway:{' '}
+            1/14/06:{' '}
             <StyledAnchor
               as={OutboundLink}
-              href="https://youtu.be/GCdM1ZUNvfk?t=1093"
+              href="http://youtu.be/uNBFGl7ErJE"
               target="_blank"
               rel="noopener noreferrer"
             >
-              part1
-            </StyledAnchor>
-            &nbsp;
-            <StyledAnchor
-              as={OutboundLink}
-              href="https://www.youtube.com/watch?v=2o182v2Chkc"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              part2
+              11.13 second speedsolve world record
             </StyledAnchor>
           </ListItem>
           <ListItem>
-            1/23/06:{' '}
-            <StyledAnchor
-              as={OutboundLink}
-              href="/video/2006-01-23-leyan-lo-impostor-on-letterman.mpg"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Late Show with David Letterman
-            </StyledAnchor>
-            <ListItem>
             1/23/06:{' '}
             <StyledAnchor
               as={OutboundLink}
