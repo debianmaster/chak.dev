@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/chakradharrao/chak.dev/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-126651057-1","head":true,"respectDNT":true},
+      options: {"plugins":[],"trackingId":"UA-9181090-3","head":true,"respectDNT":true},
     },{
       plugin: require('/Users/chakradharrao/chak.dev/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Leyan Lo","short_name":"Leyan Lo","start_url":"/","background_color":"#E3E4E8","theme_color":"#001F7F","display":"minimal-ui","icon":"src/images/logo.png"},

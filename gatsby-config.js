@@ -2,15 +2,15 @@ const path = require(`path`);
 
 module.exports = {
   siteMetadata: {
-    title: `Leyan Lo`,
-    description: `Leyan Lo’s personal website`,
-    keywords: `software, violin, cubing`
+    title: `Chakradhar Rao Jonagam`,
+    description: `chaks’s personal website`,
+    keywords: `software,travel`
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-126651057-1`,
+        trackingId: `UA-9181090-3`,
         head: true,
         respectDNT: true
       }

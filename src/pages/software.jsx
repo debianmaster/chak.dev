@@ -15,16 +15,15 @@ const SoftwarePage = () => (
         <h1>Software engineer</h1>
         <p>I like making things! My interests include:</p>
         <UnorderedList>
-          <ListItem>Designing coherent UX systems</ListItem>
-          <ListItem>Making applications responsive and accessible</ListItem>
-          <ListItem>Refactoring codebases</ListItem>
-          <ListItem>Streamlining build systems</ListItem>
-          <ListItem>Debugging minified code</ListItem>
+          <ListItem>Full stack developer</ListItem>
+          <ListItem>Openshift Field Consultant</ListItem>
+          <ListItem>Youtuber</ListItem>
+          <ListItem>Product Management</ListItem>
         </UnorderedList>
         <p>
           <StyledAnchor
             as={OutboundLink}
-            href="/docs/leyan-lo-resume-2018-03-21.pdf"
+            href="/docs/chak.pdf"
           >
             <StyledAnchorIcon as={FileIcon} />
             Download my resume

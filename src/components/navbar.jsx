@@ -87,13 +87,13 @@ export default () => (
       <NavbarIcon as={NavbarLaptopIcon} />
       Software
     </NavbarLink>
-    <NavbarLink as={Link} to="/violin/" getProps={isPartiallyActive}>
+    <NavbarLink as={Link} to="/youtube/" getProps={isPartiallyActive}>
       <NavbarIcon as={NavbarViolinIcon} />
-      Violin
+      Youtube
     </NavbarLink>
-    <NavbarLink as={Link} to="/cubing/" getProps={isPartiallyActive}>
+    <NavbarLink as={Link} to="/conferences/" getProps={isPartiallyActive}>
       <NavbarIcon as={NavbarCubingIcon} />
-      Cubing
+      Conferences
     </NavbarLink>
   </Navbar>
 );

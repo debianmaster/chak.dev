@@ -1,0 +1,9 @@
+# Make sure to title tabs so there is proper hinting on iPhone X
+- { to: /conferences/, title: Links }
+- { to: /conferences/beginner/, title: Beginner solution }
+- { to: /conferences/intermediate/, title: Intermediate algs }
+- { to: /conferences/f2l/, title: F2L }
+- { to: /conferences/oll/, title: OLL }
+- { to: /conferences/pll/, title: PLL }
+- { to: /conferences/coll/, title: COLL }
+- { to: /conferences/bld/, title: Blindfold }

@@ -23,13 +23,13 @@ const IndexPage = ({ data }) => (
           }}
         />
         <HeroContent>
-          <h1>Leyan Lo</h1>
+          <h1>Chakradhar Rao Jonagam</h1>
           <HeroHr />
-          <h3>Software engineer</h3>
+          <h3>Head Software Architect @ Biqmind</h3>
           <p>
-            Amateur violinist
+            CNCF Ambassador
             <br />
-            Former world record Rubik’s&nbsp;cube&nbsp;solver
+            Currently living in Singapore
           </p>
         </HeroContent>
       </HeroCard>

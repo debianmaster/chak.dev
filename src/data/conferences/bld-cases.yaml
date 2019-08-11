@@ -1,0 +1,137 @@
+- header: Edge orientation
+  cases:
+    - {
+        id: 2 flip,
+        algs: [M U M U M U2 M' U M' U M' U2, M2 U M U2 M' U M' U M' U2 M U M'],
+      }
+    - {
+        id: 4 flip,
+        algs:
+          [
+            M U M U M U M U,
+            M U' M U' M U' M U',
+            U R' U' R M U M U M U M U R' U R U',
+            M U M U M U M U M' U M' U M' U M' U,
+          ],
+      }
+    - {
+        id: 6 flip,
+        algs:
+          [
+            R B R' U R B R' U R B R' U R B R' U R B R' U,
+            U R' F R U R' F R U R' F R U R' F R U R' F R,
+          ],
+      }
+    - { id: 8 flip, algs: [r R b B r R b B r R b B] }
+- header: Corner orientation
+  cases:
+    - {
+        id: 2 orient,
+        algs:
+          [
+            R' D' R D R' D' R U' R' D R D' R' D R U,
+            R' D R D' R' D R U' R' D' R D R' D' R U,
+          ],
+      }
+    - {
+        id: 3 orient,
+        algs:
+          [
+            R' U' R2' U R2 U' R' U' R U R' U' R' U' R' U R U',
+            R U R2 U' R2' U R U R' U' R U R U R U' R' U,
+          ],
+      }
+    - {
+        id: 4 orient,
+        algs:
+          [
+            R' U' R U' R' U R U' R' U2 R' U R U R' U' R' U' R' U R',
+            R U' R' U R' F R F' R U' R' U R' F R F',
+            F R U R' U' R U R' U' F' R U R' U' L R' F R F' L',
+            R' F R F' R U' R' U R' F R F' R U' R' U,
+          ],
+      }
+    - {
+        id: 5 orient,
+        algs:
+          [
+            R U2' R' U2 R U R' U' R U2' R' U2 R U R' U',
+            R U R' U' R U2' R' U2 R U R' U' R U2' R' U2,
+            R' U2 R U2' R' U' R U R' U2 R U2' R' U' R U,
+            R' U' R U R' U2 R U2' R' U' R U R' U2 R U2',
+          ],
+      }
+    - {
+        id: 6 orient,
+        algs:
+          [
+            R2' U R' U R' U R2' U R' U R' U R2' U R' U R' U R2' U R' U R' U,
+            R2 U' R U' R U' R2 U' R U' R U' R2 U' R U' R U' R2 U' R U' R U',
+          ],
+      }
+- header: Corner permutation
+  cases:
+    - {
+        id: 3 cycle,
+        algs:
+          [
+            R B' R F2 R' B R F2 R2,
+            R' F R' B2 R F' R' B2 R2,
+            R B R2 B' R' U2 R B R2 B' R' U2,
+            R' B' R2' B R D2 R' B' R2' B R D2,
+          ],
+      }
+    - {
+        id: 2 swaps,
+        algs:
+          [
+            F R' F' L F R F' L2 B' R B L B' R' B,
+            M2 U' M2 U2' M2 U' M2 U2',
+            F R' F' R F R' F' R F R' F' R,
+            B R U R' U' R U R' U' R U R' U' B',
+            R U R' U R U R' U2 R U R' U R U R' U2,
+            L' U' L U' L' U' L U2' L' U' L U' L' U' L U2',
+          ],
+      }
+- header: Edge permutation
+  cases:
+    - {
+        id: 3 cycle,
+        algs:
+          [
+            R2 U' R' U' R U R U R U' R,
+            R2 U R U R' U' R' U' R' U R',
+            U2 M' U2 M,
+            R' U R' U' R' U' R' U R U R2,
+            R U' R U R U R U' R' U' R2,
+            F2 M F2' M',
+          ],
+      }
+    - {
+        id: 2 swaps,
+        algs:
+          [
+            M2 U' M2 U2' M2 U' M2,
+            M2 U2' M2 U2',
+            R B' R' B F R' F B' R' B R F2 U,
+            U2 R2 U2 R2 U2 R2,
+          ],
+      }
+- header: Permutation parity
+  cases:
+    - {
+        id: 2 corners 2 edges,
+        algs:
+          [
+            R U R' U' R' F R2 U' R' U' R U R' F',
+            R' U R U' R2 F' U' F U R F R' F' R2 U',
+            R' U2 R U2' R' F R U R' U' R' F' R2 U',
+            R U2' R' U' R U2' L' U R' U' L,
+            U' R' U L' U2 R U' L R' U L' U2 R U' L,
+            R' U R' U' B' R' B2 U' B' U B' R B R,
+            F R U' R' U' R U R' F' R U R' U' R' F R F',
+            R U2' R' U2 R B' R' U' R U R B R2' U,
+            L' U2 L U L' U2 R U' L U R',
+            U L U' R U2' L' U R' L U' R U2' L' U R',
+          ],
+      }

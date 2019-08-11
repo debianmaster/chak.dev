@@ -86,7 +86,7 @@ const Header = ({ siteTitle }) => (
       <HeaderGap />
       <HeaderIconWrapper
         as={OutboundLink}
-        href="https://twitter.com/leyanlo"
+        href="https://twitter.com/debianmaster"
         title="Twitter"
         target="_blank"
         rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const Header = ({ siteTitle }) => (
         <HeaderIcon as={HeaderTwitterIcon} />
       </HeaderIconWrapper>
       <HeaderIconWrapper
-        href="https://github.com/leyanlo"
+        href="https://github.com/debianmaster"
         title="GitHub"
         target="_blank"
         rel="noopener noreferrer"
@@ -102,7 +102,7 @@ const Header = ({ siteTitle }) => (
         <HeaderIcon as={HeaderGithubIcon} />
       </HeaderIconWrapper>
       <HeaderIconWrapper
-        href="https://www.linkedin.com/in/leyanlo/"
+        href="https://www.linkedin.com/in/debianmaster/"
         title="LinkedIn"
         target="_blank"
         rel="noopener noreferrer"
@@ -110,7 +110,7 @@ const Header = ({ siteTitle }) => (
         <HeaderIcon as={HeaderLinkedinIcon} />
       </HeaderIconWrapper>
       <HeaderIconWrapper
-        href="mailto:leyanlo@gmail.com"
+        href="mailto:9chakri@gmail.com"
         title="Email"
         target="_blank"
         rel="noopener noreferrer"

@@ -51,7 +51,7 @@ const Layout = ({ children, tabs }) => (
             },
             { name: 'keywords', content: data.site.siteMetadata.keywords },
             { name: 'twitter:card', content: 'summary_large_image' },
-            { name: 'twitter:site', content: '@leyanlo' },
+            { name: 'twitter:site', content: '@debianmaster' },
             { property: 'og:title', content: data.site.siteMetadata.title },
             {
               property: 'og:description',
@@ -61,7 +61,7 @@ const Layout = ({ children, tabs }) => (
               property: 'og:image',
               content: 'https://www.leyanlo.com/img/logo-fb.png'
             },
-            { property: 'og:url', content: 'https://www.leyanlo.com/' },
+            { property: 'og:url', content: 'https://chak.dev' },
             { property: 'og:site_name', content: data.site.siteMetadata.title },
             {
               property: 'twitter:title',
